@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import SignInForm from './signinForm'
 import PageTitle from '../pageTitle'
 
-export default class SignIn extends Component {
+class SignIn extends Component {
     onSubmit = (fields) => {
         console.log(fields) 
     }
@@ -16,4 +16,6 @@ export default class SignIn extends Component {
         )
     }
 }
+
+export default SignIn 
 
