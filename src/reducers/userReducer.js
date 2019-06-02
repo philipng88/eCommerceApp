@@ -8,7 +8,7 @@ const INITIAL_STATE = {
         _id: -1,
         total: 0,
         orderNumber: '',
-        orderDate: null, 
+        orderDate: '', 
         creditCard: '',
         user: {
             name: '',
@@ -27,7 +27,7 @@ export default function(state = INITIAL_STATE, action) {
         case SET_PURCHASE_DETAIL:
             let purchaseDetail 
             state.purchases.map(purchase => {
-                if (purchase._id = action.payload) {
+                if (purchase._id == action.payload) {
                     purchaseDetail = purchase 
                 }
             })

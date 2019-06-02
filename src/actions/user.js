@@ -18,86 +18,86 @@ export function fetchUserPurchases() {
                 _id: 0,
                 total: 13.84,
                 orderNumber: 2192028812,
-                orderDate: new Date().toDateString(),
-                creditCard: '-1094',
+                orderDate: 'Wed May 01 2019',
+                creditCard: '1094',
                 user: {
-                    name: 'Tony Stark',
-                    shippingAddress: '158 Irona Grove'
+                    name: 'John Doe',
+                    shippingAddress: '742 Evergreen Terrace'
                 }
             },
             {
                 _id: 1,
                 total: 48.79,
                 orderNumber: 4229943417,
-                orderDate: new Date().toDateString(),
-                creditCard: '-3286',
+                orderDate: 'Fri May 31 2019',
+                creditCard: '1094',
                 user: {
-                    name: 'Steve Rogers',
-                    shippingAddress: '295 Kiofu Lane'
+                    name: 'John Doe',
+                    shippingAddress: '742 Evergreen Terrace'
                 }
             },
             {
                 _id: 2,
                 total: 30.35,
                 orderNumber: 453248144,
-                orderDate: new Date().toDateString(),
-                creditCard: '-1528',
+                orderDate: 'Tue Feb 05 2019',
+                creditCard: '1094',
                 user: {
-                    name: 'Bruce Banner',
-                    shippingAddress: '386 Esezup Court'
+                    name: 'John Doe',
+                    shippingAddress: '742 Evergreen Terrace'
                 }
             },
             {
                 _id: 3,
                 total: 57.12,
                 orderNumber: 1890130637,
-                orderDate: new Date().toDateString(),
-                creditCard: '-4787',
+                orderDate: 'Wed Jul 04 2018',
+                creditCard: '1094',
                 user: {
-                    name: 'Clint Barton',
-                    shippingAddress: '280 Hetme Circle'
+                    name: 'John Doe',
+                    shippingAddress: '742 Evergreen Terrace'
                 }
             },{
                 _id: 4,
                 total: 63.21,
                 orderNumber: 3203979621,
-                orderDate: new Date().toDateString(),
-                creditCard: '-2632',
+                orderDate: 'Thu Mar 14 2019',
+                creditCard: '1094',
                 user: {
-                    name: 'Wanda Maximoff',
-                    shippingAddress: '1540 Ivode Park'
+                    name: 'John Doe',
+                    shippingAddress: '742 Evergreen Terrace'
                 }
             },
             {
                 _id: 5,
                 total: 62.83,
                 orderNumber: 441711208,
-                orderDate: new Date().toDateString(),
-                creditCard: '-1940',
+                orderDate: 'Thu May 23 2019',
+                creditCard: '1094',
                 user: {
-                    name: 'Carol Danvers',
-                    shippingAddress: '1769 Vebzik Heights'
+                    name: 'John Doe',
+                    shippingAddress: '742 Evergreen Terrace'
                 }
             },{
                 _id: 6,
                 total: 17.90,
                 orderNumber: 2303210680,
-                orderDate: new Date().toDateString(),
-                creditCard: '-4052',
+                orderDate: 'Tue Jan 22 2019',
+                creditCard: '1094',
                 user: {
-                    name: 'Peter Parker',
-                    shippingAddress: '712 Rele Avenue'
+                    name: 'John Doe',
+                    shippingAddress: '742 Evergreen Terrace'
                 }
             },
             {
                 _id: 7,
                 total: 46.01,
                 orderNumber: 4169299892,
-                orderDate: new Date().toDateString(),
-                creditCard: '-1383',
+                orderDate: 'Sat Jun 01 2019',
+                creditCard: '1094',
                 user: {
-                    name: 'James Rhodes',
-                    shippingAddress: '1341 Hehmu Lane'
+                    name: 'John Doe',
+                    shippingAddress: '742 Evergreen Terrace'
                 }
             }
         ]
