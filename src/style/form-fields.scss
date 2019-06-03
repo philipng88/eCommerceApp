@@ -1,3 +1,11 @@
+@mixin form-button-styles {
+    height: 38px;
+    width: 243px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: white; 
+}
+
 .form-input {
     display: grid;
     grid-gap: 6.5px;
@@ -21,12 +29,8 @@
 
 .form-button {
     &__button {
-        height: 38px;
-        width: 243px;
-        border-radius: 20px;
+        @include form-button-styles();
         background-color: #00cb79;
-        font-size: 16px;
-        color: white; 
         &:focus {
             outline: none; 
         }
@@ -34,5 +38,21 @@
     &__gray-button {
         background: #999;
         width: 137px; 
+    }
+}
+
+.change-password-button {
+    display: grid;
+    grid-gap: 6.5px;
+    &__button {
+        @include form-button-styles();
+        background-color: #999;
+        &:focus {
+            outline: none; 
+        }
+    }
+    &__label {
+        padding-left: 20px;
+        font-size: 14px;
     }
 }

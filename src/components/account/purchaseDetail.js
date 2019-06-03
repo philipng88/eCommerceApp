@@ -29,7 +29,7 @@ class PurchaseDetail extends Component {
                 <PurchaseDetailLabel 
                     className = 'purchase-detail__shipping-address'
                     title = 'Shipping Address'
-                    value = {`${name}\n${shippingAddress}`} 
+                    value = {`${name} - ${shippingAddress}`} 
                 /> 
                 <PurchaseDetailLabel
                     className = 'purchase-detail__total'

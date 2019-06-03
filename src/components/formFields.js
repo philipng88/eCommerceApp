@@ -29,3 +29,20 @@ export class FormButton extends Component {
     }
 }
 
+export class ChangePasswordButton extends Component {
+    render() {
+        const { className, labelTitle, title, type, onClick, input } = this.props 
+        return (
+            <div className={`${className} change-password-button`}>
+                <label className='change-password-button__label'>{labelTitle}</label>
+                <button className={`change-password-button__button`}
+                        type={type}
+                        {...input}
+                        onClick={onClick}
+                >
+                {title} 
+                </button>
+            </div>
+        )
+}
+}
