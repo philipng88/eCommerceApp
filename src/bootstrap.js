@@ -13,8 +13,10 @@ import history from './history';
 import SignIn from './components/auth/signin';
 import SignUp from './components/auth/signup'; 
 import Account from './components/account/account';
+import Icons from './helpers/icons';
 
 function main() {
+  Icons() 
   ReactDOM.render(
     <Provider store={createStoreWithMiddleware(reducers)}>
       <Router history={history}> 

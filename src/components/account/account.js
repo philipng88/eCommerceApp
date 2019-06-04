@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import * as actions from '../../actions'
 import PurchaseHistory from './purchaseHistory';
 import AccountInformation from './accountInformation';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Account extends Component {
     
@@ -11,12 +12,14 @@ class Account extends Component {
             {
                 _id: 0,
                 title: 'Shop',
-                path: '/shop'
+                path: '/shop',
+                icon: <FontAwesomeIcon icon="shopping-cart" />
             },
             {
                 _id: 1,
                 title: 'Logout',
-                path: '/' 
+                path: '/',
+                icon: <FontAwesomeIcon icon="door-open" /> 
             }
         ]
         

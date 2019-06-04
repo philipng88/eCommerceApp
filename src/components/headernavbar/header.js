@@ -12,7 +12,7 @@ class Header extends Component {
                         this.props.headerLinks.map((link, index) => {
                             return (
                                 <a className='header__link' key={index} onClick={() => history.push(link.path)}> 
-                                    {link.title} 
+                                    {link.title}{link.icon}  
                                 </a>
                             )
                         })
