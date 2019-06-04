@@ -1,4 +1,9 @@
-import { SET_SHOP_PRODUCTS, FILTER_PRODUCTS_WITH_CATEGORY_ID, SET_SHOP_CATEGORIES } from '../actions/types'
+import { 
+    SET_SHOP_PRODUCTS, 
+    FILTER_PRODUCTS_WITH_CATEGORY_ID, 
+    SET_SHOP_CATEGORIES,
+    FILTER_PRODUCTS_WITH_QUERY  
+} from '../actions/types'
 
 const INITIAL_STATE = {
     categories: [],
@@ -20,12 +25,23 @@ export default function(state = INITIAL_STATE, action) {
                 products: action.payload 
             }
         case FILTER_PRODUCTS_WITH_CATEGORY_ID:
-            let filteredProducts = [] 
+            var filteredProducts = [] 
             state.products.map(product => {
                 if (product.category.includes(action.payload)) {
                     filteredProducts.push(product)  
                 }
             }) 
+            return {
+                ...state,
+                filteredProducts 
+            }
+        case FILTER_PRODUCTS_WITH_QUERY:
+            var filteredProducts = []
+            state.products.map(product => {
+                if (product.title.toLowerCase().includes(action.payload.query.toLowerCase())) {
+                    filteredProducts.push(product) 
+                }
+            })
             return {
                 ...state,
                 filteredProducts 
