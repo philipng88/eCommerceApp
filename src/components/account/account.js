@@ -17,7 +17,7 @@ class Account extends Component {
             },
             {
                 _id: 1,
-                title: 'Logout',
+                title: 'Logout   ',
                 path: '/',
                 icon: <FontAwesomeIcon icon="sign-out-alt" /> 
             }

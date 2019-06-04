@@ -9,7 +9,7 @@ class Shop extends Component {
         const headerLinks = [
             {
                 _id: 0,
-                title: 'Login',
+                title: 'Login   ',
                 path: '/signin',
                 icon: <FontAwesomeIcon icon="sign-in-alt" />
             }
