@@ -19,7 +19,7 @@ class Account extends Component {
                 _id: 1,
                 title: 'Logout',
                 path: '/',
-                icon: <FontAwesomeIcon icon="door-open" /> 
+                icon: <FontAwesomeIcon icon="sign-out-alt" /> 
             }
         ]
         

@@ -13,6 +13,7 @@ import history from './history';
 import SignIn from './components/auth/signin';
 import SignUp from './components/auth/signup'; 
 import Account from './components/account/account';
+import Shop from './components/shop/shop';
 import Icons from './helpers/icons';
 
 function main() {
@@ -26,6 +27,7 @@ function main() {
             <Route path='/signin' component={SignIn} /> 
             <Route path='/signup' component={SignUp} /> 
             <Route path='/account' component={Account} /> 
+            <Route path='/shop' component={Shop} />
           </Switch>
         </Layout> 
       </Router>
