@@ -96,7 +96,7 @@ export function fetchShopProducts() {
             },
             {
                 _id: 5,
-                title: 'Advanced Object Oriented Programming',
+                title: 'Advanced OOP',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 62.47,
                 category: [0, 6]
@@ -121,6 +121,27 @@ export function fetchShopProducts() {
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 25.54,
                 category: [0, 5]
+            },
+            {
+                _id: 9,
+                title: 'UML Fundamentals',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
+                price: 47.33,
+                category: [0, 5]
+            },
+            {
+                _id: 10,
+                title: 'Python and Machine Learning',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
+                price: 86.01,
+                category: [0, 4]
+            },
+            {
+                _id: 11,
+                title: 'Ruby on Rails',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
+                price: 34.37,
+                category: [0, 6]
             }
         ]
     })

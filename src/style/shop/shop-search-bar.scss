@@ -1,7 +1,7 @@
 .shop-search-bar {
     input {
         height: 40px;
-        width: 100%;
+        width: 91.5%;
         border: 1px solid #e6e6e6;
         border-radius: 20px;
         font-size: 20px;
@@ -18,10 +18,10 @@
 .search-bar-grid {
     display: grid;
     grid-template-rows: [s] 1fr [e];
-    grid-template-columns: 20px [s] 1fr [e];
+    grid-template-columns: 20px [s] 20px [icon-e] 1fr [e] 50px;
     &__icon {
         grid-row: s/e;
-        grid-column: s/e;
+        grid-column: s/icon-e;
         font-size: 18px;
         align-self: center;
         z-index: 1;
