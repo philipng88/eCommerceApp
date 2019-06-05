@@ -7,6 +7,12 @@ import ShopProduct from './shopProduct';
 import ShopCart from './shopCart';
 
 class Shop extends Component {
+    constructor() {
+        super()
+        this.state = {
+            showCart: true 
+        }
+    }
     componentDidMount() {
         const headerLinks = [
             {
@@ -35,9 +41,8 @@ class Shop extends Component {
     render() {
         return (
             <div className='shop'> 
-                {/* <ShopSearchBar onSubmit={this.onSubmit} className='shop__search-bar' />  */}
-                <ShopCart className='shop__cart' />
-                {/* <div className='shop__products'>
+                <ShopSearchBar onSubmit={this.onSubmit} className='shop__search-bar' /> 
+                <div className='shop__products'>
                     {
                         this.props.filteredProducts.map(product => {
                             return (
@@ -45,7 +50,10 @@ class Shop extends Component {
                             )
                         })
                     }
-                </div> */}
+                </div>
+                {
+                    this.state.showCart ? <ShopCart className='shop__cart' /> : ''
+                }
             </div>
         );
     }
