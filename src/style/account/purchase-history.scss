@@ -1,11 +1,14 @@
 @mixin print-track {
     grid-column: m/e;
-    color: #00cb79;
+    color: $bottega-green;
     font-size: 14px;
     font-weight: 600;
     text-decoration-line: underline;
     justify-self: center;
     width: 150px; 
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .purchase-history {

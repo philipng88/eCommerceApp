@@ -30,7 +30,7 @@
 .form-button {
     &__button {
         @include form-button-styles();
-        background-color: #00cb79;
+        background-color: $bottega-green;
         &:focus {
             outline: none; 
         }

@@ -51,7 +51,7 @@
     }
     &__title {
         grid-row: title-s/title-e;
-        color: #00cb79;
+        color: $bottega-green;
         font-family: "Encode Sans Condensed";
         font-size: 16px;
         font-weight: 500;
@@ -77,7 +77,7 @@
         width: 97px;
         border-radius: 20px;
         color: white; 
-        background-color: #00cb79;
+        background-color: $bottega-green;
         font-size: 12px;
         font-weight: 600;
         transition: all .3s ease;

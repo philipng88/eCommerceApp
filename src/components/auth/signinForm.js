@@ -15,13 +15,11 @@ class SignInForm extends Component {
             },
             {
                 _id: 1,
-                title: 'Forgot account email?',
-                onClick: () => console.log('forgot email')
+                title: 'Forgot account email?'
             },
             {
                 _id: 2,
-                title: 'Forgot password?',
-                onClick: () => console.log('forgot password')
+                title: 'Forgot password?'
             }
         ]
         return (

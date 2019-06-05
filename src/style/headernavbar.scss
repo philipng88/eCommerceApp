@@ -20,6 +20,9 @@
         margin-right: 47px;
         color: #333;
         font-size: 16px;
+        &:hover {
+            cursor: pointer;
+        }
         & > * {
             grid-row: s/e;
         }
@@ -27,7 +30,7 @@
 }
 
 .green-text {
-    color: #00cb79;
+    color: $bottega-green;
 }
 
 .navbar {
@@ -45,5 +48,10 @@
     font-weight: normal;
     & > * {
         grid-row: s/e;
+    }
+    &__link {
+        &:hover {
+            cursor: pointer;
+        }
     }
 }

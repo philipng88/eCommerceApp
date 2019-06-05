@@ -4,6 +4,7 @@ import * as actions from '../../actions'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ShopSearchBar from './shopSearchBar';
 import ShopProduct from './shopProduct';
+import ShopCart from './shopCart';
 
 class Shop extends Component {
     componentDidMount() {
@@ -35,6 +36,7 @@ class Shop extends Component {
         return (
             <div className='shop'> 
                 <ShopSearchBar onSubmit={this.onSubmit} className='shop__search-bar' /> 
+                {/* <ShopCart className='shop__cart' /> */}
                 <div className='shop__products'>
                     {
                         this.props.filteredProducts.map(product => {
