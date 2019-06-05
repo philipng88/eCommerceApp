@@ -1,7 +1,7 @@
 .shop-search-bar {
     input {
         height: 40px;
-        width: 91.5%;
+        width: 100%;
         border: 1px solid #e6e6e6;
         border-radius: 20px;
         font-size: 20px;
@@ -23,8 +23,8 @@
         grid-row: s/e;
         grid-column: s/icon-e;
         font-size: 18px;
-        align-self: center;
         z-index: 1;
+        align-self: center;
     }
     &__input {
         grid-row: s/e;

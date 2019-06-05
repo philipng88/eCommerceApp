@@ -1,9 +1,8 @@
 .shop {
     display: grid;
     justify-content: center;
-    grid-template-rows: 15px [search-bar-s] 38px [search-bar-e products-s] 1fr [products-e];
+    grid-template-rows: 15px [search-bar-s] 38px [search-bar-e] 57px [products-s] 1fr [products-e];
     grid-template-columns: [s] minmax(100px, 1035px) [e]; 
-    grid-gap: 57px;
     grid-row: content-s/content-e;
     grid-column: s/e;
     &__search-bar {
@@ -19,5 +18,17 @@
         grid-row-gap: 40px;
         width: 100%;
         justify-self: center;
+    }
+    &__cart,
+    &__cart-button {
+        position: absolute;
+        top: 115px;
+        right: 0px;
+    }
+    &__cart-button {
+        z-index: 1;
+        &:hover {
+            cursor: pointer;
+        }
     }
 }

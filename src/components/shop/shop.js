@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ShopSearchBar from './shopSearchBar';
 import ShopProduct from './shopProduct';
 import ShopCart from './shopCart';
+import CartButton from './cartButton';
 
 class Shop extends Component {
     constructor() {
@@ -17,9 +18,9 @@ class Shop extends Component {
         const headerLinks = [
             {
                 _id: 0,
-                title: 'Login   ',
+                title: 'Logout   ',
                 path: '/signin',
-                icon: <FontAwesomeIcon icon="sign-in-alt" />
+                icon: <FontAwesomeIcon icon="sign-out-alt" />
             }
         ]
         this.props.setHeaderLinks(headerLinks) 
@@ -36,6 +37,14 @@ class Shop extends Component {
 
     onSubmit = (fields) => {
         this.props.filterProductsWithQuery(fields)  
+    }
+
+    handleAddToCart = () => {
+        if (document.getElementById('shop-cart').classList.contains('cart-hidden')) {
+            document.getElementById('shop-cart').classList.remove('cart-hidden') 
+        } else {
+            document.getElementById('shop-cart').classList.add('cart-hidden') 
+        }
     }
     
     render() {
@@ -54,6 +63,7 @@ class Shop extends Component {
                 {
                     this.state.showCart ? <ShopCart className='shop__cart' /> : ''
                 }
+                <CartButton onClick={this.handleAddToCart} className='shop__cart-button' icon='fas fa-shopping-cart' />
             </div>
         );
     }
