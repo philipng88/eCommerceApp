@@ -36,6 +36,11 @@ $bottega-green: #00cb79;
 @import 'shop/shop';
 @import 'shop/shop-search-bar';
 @import 'shop/shop-product';
+
+// CART
+@import 'shop/shop-cart'; 
+@import 'shop/cart-product';
+
+// QUANTITY 
 @import 'quantity';
 @import 'green-price-tag';
-@import 'shop/shop-cart'; 

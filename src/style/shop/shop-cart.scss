@@ -47,6 +47,7 @@
         grid-column: s/e;
         overflow-y: scroll;
         padding-top: 50px;
+        grid-row-gap: 45px;
     }
     &__footer {
         display: grid;
