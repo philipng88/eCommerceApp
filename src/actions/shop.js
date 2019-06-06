@@ -64,84 +64,96 @@ export function fetchShopProducts() {
                 title: 'JavaScript in the Browser',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 94.58,
-                category: [0, 1]
+                category: [0, 1],
+                imageURL: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 1,
                 title: 'Graph Database',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 36.36,
-                category: [0]
+                category: [0],
+                imageURL: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 2,
                 title: 'Full Stack Development',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 15.78,
-                category: [0, 1, 4]
+                category: [0, 1, 4],
+                imageURL: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 3,
                 title: 'JavaScript Development',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 87.98,
-                category: [0, 1]
+                category: [0, 1],
+                imageURL: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 4,
                 title: 'User Interface Design',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 29.86,
-                category: [0, 2]
+                category: [0, 2],
+                imageURL: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 5,
                 title: 'Advanced OOP',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 62.47,
-                category: [0, 6]
+                category: [0, 6],
+                imageURL: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 6,
                 title: 'User Experience Design',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 80.15,
-                category: [0, 2]
+                category: [0, 2],
+                imageURL: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 7,
                 title: 'Linux Administration',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 87.94,
-                category: [0, 3]
+                category: [0, 3],
+                imageURL: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 8,
                 title: 'UML Class Diagrams',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 25.54,
-                category: [0, 5]
+                category: [0, 5],
+                imageURL: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 9,
                 title: 'UML Fundamentals',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 47.33,
-                category: [0, 5]
+                category: [0, 5],
+                imageURL: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 10,
                 title: 'Python and Machine Learning',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 86.01,
-                category: [0, 4]
+                category: [0, 4],
+                imageURL: 'http://via.placeholder.com/80x80'
             },
             {
                 _id: 11,
                 title: 'Ruby on Rails',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                 price: 34.37,
-                category: [0, 6]
+                category: [0, 6],
+                imageURL: 'http://via.placeholder.com/80x80'
             }
         ]
     })

@@ -30,7 +30,8 @@ export function fetchCartProducts() {
                     title: 'JavaScript in the Browser',
                     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                     price: 94.58,
-                    category: [0, 1]
+                    category: [0, 1],
+                    imageURL: 'http://via.placeholder.com/80x80'  
                 },
                 quantity: 2
             },
@@ -41,7 +42,8 @@ export function fetchCartProducts() {
                     title: 'Graph Database',
                     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies. Nulla porttitor massa id neque aliquam vestibulum morbi. Condimentum id venenatis a condimentum.',
                     price: 36.36,
-                    category: [0]
+                    category: [0],
+                    imageURL: 'http://via.placeholder.com/80x80'   
                 },
                 quantity: 1
             }
