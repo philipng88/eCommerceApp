@@ -21,8 +21,11 @@ function CartContent({className, products}) {
     )
 }
 
-function CartFooter({className}) {
-    const price = 7.96;
+function CartFooter({className, products}) {
+    let subtotal = 0
+    products.map(cartProduct => {
+        subtotal = subtotal + (cartProduct.quantity * cartProduct.product.price)
+    })
     return (
         <div className={`${className} cart-footer`}>
             <a onClick={() => history.push('/order/review')} className='cart-footer__checkout'>
@@ -32,7 +35,7 @@ function CartFooter({className}) {
                 Subtotal
             </div>
             <div className='cart-footer__price'>
-                ${price}
+                ${subtotal}
             </div>
         </div>
     )
