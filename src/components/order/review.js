@@ -18,7 +18,8 @@ class Review extends Component {
     render() {
         let subtotal = 0
         this.props.cartProducts.map(cartProduct => {
-            subtotal = subtotal + (cartProduct.quantity * cartProduct.product.price)
+            subtotal = Math.round((subtotal + (cartProduct.quantity * cartProduct.product.price)) * 100) / 100
+            // subtotal += cartProduct.quantity * cartProduct.product.price
         })
         return (
             <div className='review'>

@@ -7,9 +7,9 @@ import ReviewProducts from "./reviewProducts"
 class ReviewForm extends Component {
     render() {
         const { className, handleSubmit, subtotal } = this.props
-        let tax = Math.round(subtotal * 0.065 * 100) / 100
-        let shipping = 0.0;
-        let total = Math.round((subtotal + tax + shipping) * 100) / 100
+        let tax = 0
+        let shipping = 0
+        let total = subtotal + tax + shipping
         return (
             <form
                 onSubmit={handleSubmit}

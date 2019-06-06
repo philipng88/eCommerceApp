@@ -24,7 +24,8 @@ function CartContent({className, products}) {
 function CartFooter({className, products}) {
     let subtotal = 0
     products.map(cartProduct => {
-        subtotal = subtotal + (cartProduct.quantity * cartProduct.product.price)
+        subtotal = Math.round((subtotal + (cartProduct.quantity * cartProduct.product.price)) * 100) / 100
+        // subtotal += cartProduct.quantity * cartProduct.product.price
     })
     return (
         <div className={`${className} cart-footer`}>
