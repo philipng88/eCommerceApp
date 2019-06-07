@@ -20,13 +20,11 @@ import SignIn from "./components/auth/signin";
 import SignUp from "./components/auth/signup";
 import Account from "./components/account/account";
 import Shop from "./components/shop/shop";
-import Icons from "./helpers/icons";
 import Review from "./components/order/review";
 import Shipping from "./components/information/shipping";
 import Payment from "./components/information/payment";
 
 function main() {
-    Icons();
     ReactDOM.render(
         <Provider store={createStoreWithMiddleware(reducers)}>
             <Router history={history}>

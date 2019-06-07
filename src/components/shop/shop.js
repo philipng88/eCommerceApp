@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../actions' 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ShopSearchBar from './shopSearchBar';
 import ShopProduct from './shopProduct';
 import ShopCart from './shopCart';
@@ -20,7 +19,7 @@ class Shop extends Component {
                 _id: 0,
                 title: 'Logout   ',
                 path: '/signin',
-                icon: <FontAwesomeIcon icon="sign-out-alt" />
+                icon: <i class="fas fa-sign-out-alt"></i>
             }
         ]
         this.props.setHeaderLinks(headerLinks) 

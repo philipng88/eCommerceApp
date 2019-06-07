@@ -37,7 +37,7 @@ export function fetchUserPurchases() {
                 orderDate: 'Wed May 01 2019',
                 creditCard: 'XXXX',
                 user: {
-                    name: 'John Doe',
+                    name: 'Max Power',
                     shippingAddress: '742 Evergreen Terrace'
                 }
             },
@@ -48,7 +48,7 @@ export function fetchUserPurchases() {
                 orderDate: 'Fri May 31 2019',
                 creditCard: 'XXXX',
                 user: {
-                    name: 'John Doe',
+                    name: 'Max Power',
                     shippingAddress: '742 Evergreen Terrace'
                 }
             },
@@ -59,7 +59,7 @@ export function fetchUserPurchases() {
                 orderDate: 'Tue Feb 05 2019',
                 creditCard: 'XXXX',
                 user: {
-                    name: 'John Doe',
+                    name: 'Max Power',
                     shippingAddress: '742 Evergreen Terrace'
                 }
             },
@@ -70,7 +70,7 @@ export function fetchUserPurchases() {
                 orderDate: 'Wed Jul 04 2018',
                 creditCard: 'XXXX',
                 user: {
-                    name: 'John Doe',
+                    name: 'Max Power',
                     shippingAddress: '742 Evergreen Terrace'
                 }
             },
@@ -81,7 +81,7 @@ export function fetchUserPurchases() {
                 orderDate: 'Thu Mar 14 2019',
                 creditCard: 'XXXX',
                 user: {
-                    name: 'John Doe',
+                    name: 'Max Power',
                     shippingAddress: '742 Evergreen Terrace'
                 }
             },
@@ -92,7 +92,7 @@ export function fetchUserPurchases() {
                 orderDate: 'Thu May 23 2019',
                 creditCard: 'XXXX',
                 user: {
-                    name: 'John Doe',
+                    name: 'Max Power',
                     shippingAddress: '742 Evergreen Terrace'
                 }
             },
@@ -103,7 +103,7 @@ export function fetchUserPurchases() {
                 orderDate: 'Tue Jan 22 2019',
                 creditCard: 'XXXX',
                 user: {
-                    name: 'John Doe',
+                    name: 'Max Power',
                     shippingAddress: '742 Evergreen Terrace'
                 }
             },
@@ -114,7 +114,7 @@ export function fetchUserPurchases() {
                 orderDate: 'Sat Jun 01 2019',
                 creditCard: 'XXXX',
                 user: {
-                    name: 'John Doe',
+                    name: 'Max Power',
                     shippingAddress: '742 Evergreen Terrace'
                 }
             }

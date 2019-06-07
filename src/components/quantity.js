@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 class Quantity extends Component {
     render() {
@@ -10,10 +9,10 @@ class Quantity extends Component {
                     {quantity}
                 </div>
                 <div className='quantity__plus'>
-                    <FontAwesomeIcon icon="plus" />
+                    <i class="fas fa-plus"></i>
                 </div>
                 <div className='quantity__minus'> 
-                    <FontAwesomeIcon icon="minus" />
+                    <i class="fas fa-minus"></i>
                 </div>
             </div>
         );
