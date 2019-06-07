@@ -32,6 +32,12 @@
     width: 360px;
 }
 
+.purchase__img {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
 .purchase-detail {
     display: grid;
     width: 600px;

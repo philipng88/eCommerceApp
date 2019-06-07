@@ -19,7 +19,7 @@ class Shop extends Component {
                 _id: 0,
                 title: 'Logout   ',
                 path: '/signin',
-                icon: <i class="fas fa-sign-out-alt"></i>
+                icon: <i className="fas fa-sign-out-alt"></i>
             }
         ]
         this.props.setHeaderLinks(headerLinks) 

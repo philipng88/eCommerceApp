@@ -12,13 +12,13 @@ class Account extends Component {
                 _id: 0,
                 title: 'Shop',
                 path: '/shop',
-                icon: <i class="fas fa-shopping-cart"></i>
+                icon: <i className="fas fa-shopping-cart"></i>
             },
             {
                 _id: 1,
                 title: 'Logout   ',
                 path: '/',
-                icon: <i class="fas fa-sign-out-alt"></i> 
+                icon: <i className="fas fa-sign-out-alt"></i> 
             }
         ]
         
